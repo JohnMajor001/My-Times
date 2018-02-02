@@ -1,7 +1,6 @@
 body {
   margin: 0;
 }
-
 .header {
   border-bottom: 1px solid black;
   font-weight: bold;
@@ -15,18 +14,27 @@ body {
 }
 .logo {
 margin: 0 10px;
+flex: 1;
 
 }
+
 .words {
+  flex: 1;
 }
-nav {
-margin-left: auto;
-display: inline-flex;
-justify-content: space-around;
-}
-.flex {
 
+nav {
+margin-left: 1400px;
+margin-right: 100px;
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+flex: 20;
 }
+.one {
+padding-left: 30px;
+}
+
 .header li {
 list-style-type: none;
 }
