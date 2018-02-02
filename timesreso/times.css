@@ -1,0 +1,22 @@
+.header {
+  border-bottom: 1px solid black;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: Verdana;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: inline-block;
+  flex-direction: row-reverse;
+}
+.header li {
+list-style-type: none;
+}
+.header p {
+  color: MediumAquamarine;
+}
+a {
+  color: black;
+}
