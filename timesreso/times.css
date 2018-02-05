@@ -1,6 +1,32 @@
 body {
   margin: 0;
 }
+
+
+                /* Very top bar*/
+
+nav {
+margin-left: 1400px;
+margin-right: 100px;
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+flex: 20;
+}
+a {
+  color: black;
+}
+.one {
+padding-left: 30px;
+}
+
+.header li {
+list-style-type: none;
+}
+.header p {
+  color: MediumAquamarine;
+}
 .header {
   border-bottom: 1px solid black;
   font-weight: bold;
@@ -15,32 +41,17 @@ body {
 .logo {
 margin: 0 10px;
 flex: 1;
-
 }
-
 .words {
   flex: 1;
 }
 
-nav {
-margin-left: 1400px;
-margin-right: 100px;
-
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-flex: 20;
-}
-.one {
-padding-left: 30px;
+.border {
+  border: 1px solid;
 }
 
-.header li {
-list-style-type: none;
-}
-.header p {
-  color: MediumAquamarine;
-}
-a {
-  color: black;
+                      /* where flex things start for main body*/
+
+.container {
+  display: flex;
 }
