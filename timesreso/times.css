@@ -50,8 +50,16 @@ flex: 1;
   border: 1px solid;
 }
 
-                      /* where flex things start for main body*/
+                      /* where flex starts for main body*/
 
 .container {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
+.column {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  max-width: 600px;
+  }
